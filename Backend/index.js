@@ -22,7 +22,7 @@ app.use(cookieParser());
 app.use(bodyParser.json());
 
 const corsOptions = {
-  origin: "http://localhost:5173",
+  origin: "https://job-portal-3-w2ra.onrender.com",
   credentials: true,
 };
 app.use(cors(corsOptions));
